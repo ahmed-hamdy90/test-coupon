@@ -1,0 +1,15 @@
+{
+  "name": "Test",
+  "description": "test",
+  "type": "library",
+  "prefer-stable": true,
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.2"
+  },
+  "autoload" : {
+    "psr-4" : {
+      "Test\\" : "src/"
+    }
+  }
+}
